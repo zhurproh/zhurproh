@@ -25,7 +25,10 @@ h2{
   0%, 1% {opacity: 0;}
 }
 footer{
-  width: calc(100% - 28 px);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: #fff;
   padding: 1%;
   border-top: 2px solid silver;
